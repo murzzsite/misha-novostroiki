@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Миша — персональный брокер новостроек в Москве</title>
+<meta name="description" content="Персональный брокер новостроек бизнес-, премиум- и элитного класса в Москве. Подбор квартиры от 15 млн ₽ и сопровождение до сделки.">
+<meta name="theme-color" content="#eef1f3">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Prata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Миша, на главную">
+      <svg class="logo__mark" viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><path d="M3 25V12l5-3v16M10 25V5l5-3 5 3v20M22 25V13l3 2v10" fill="currentColor"/></svg>
+      <span>Миша</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#budget">Ваш бюджет</a>
+      <a href="#work">Что делаю</a>
+      <a href="#steps">Как проходит сделка</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--sm" href="#contact">Подобрать квартиру</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="h1">
+  <div class="hero__media">
+    <img class="hero__img" src="img/kotelnicheskaya.jpg" width="1920" height="1238" alt="Высотка на Котельнической набережной над Москвой-рекой в ясный день" fetchpriority="high">
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__content">
+    <h1 id="h1" class="hero__title"><span class="line"><span>Брокер новостроек</span></span> <span class="line"><span>в Москве</span></span></h1>
+    <p class="hero__lead">Персональный брокер: подбираю квартиры от 15 млн ₽ и довожу покупку до ключей.</p>
+    <a class="btn btn--light" href="#contact">Подобрать квартиру</a>
+  </div>
+  <p class="hero__cap">Высотка на Котельнической набережной</p>
+</section>
+
+<!-- LIVE THING: BUDGET -->
+<section class="budget" id="budget" aria-labelledby="budget-h">
+  <div class="budget__left">
+    <h2 id="budget-h" class="head">С какой суммы начинаем?</h2>
+    <p class="budget__note">Передвиньте ползунок: покажу, какой класс новостроек вам доступен и что я проверяю на этом уровне. Ориентиры по рынку Москвы, точный подбор после разговора.</p>
+  </div>
+  <div class="budget__panel" id="dial" data-ui>
+    <output class="dial__value" id="dialValue" for="dialRange">15 млн ₽</output>
+    <div class="dial__track">
+      <span class="dial__bar" aria-hidden="true"></span><span class="dial__fill" id="dialFill" aria-hidden="true"></span>
+      <input class="dial__range" id="dialRange" type="range" min="15" max="100" step="1" value="15" aria-label="Бюджет покупки, млн рублей">
+    </div>
+    <div class="dial__scale" aria-hidden="true"><span>15</span><span>30</span><span>60</span><span>100 и выше</span></div>
+    <div class="dial__class">
+      <h3 class="dial__name" id="dialName">Бизнес-класс</h3>
+      <p class="dial__text" id="dialText">Закрытые дворы, подземный паркинг, продуманные планировки. Сравниваю застройщиков, очереди и условия оплаты, чтобы вы не переплатили за громкое имя.</p>
+    </div>
+    <a class="btn" id="dialGo" href="#contact">Обсудить с этим бюджетом</a>
+    <noscript><p class="dial__text">Бизнес-класс — от 15 млн ₽. Премиум — от 30 млн ₽. Элитная недвижимость — от 60 млн ₽.</p></noscript>
+  </div>
+</section>
+
+<!-- FEATURES: SCROLL SCENE -->
+<section class="story" id="work" aria-labelledby="story-h">
+  <div class="story__sticky">
+    <div class="story__bg" aria-hidden="true">
+      <img class="story__img is-on" src="img/moscow-city-night.jpg" width="1920" height="2234" alt="" loading="lazy" style="object-position:50% 30%">
+      <img class="story__img" src="img/zaryadye.jpg" width="1920" height="1280" alt="" loading="lazy" style="object-position:40% 50%">
+      <img class="story__img" src="img/patriarch-crop.jpg" width="1920" height="845" alt="" loading="lazy" style="object-position:50% 40%">
+      <img class="story__img" src="img/sunrise.jpg" width="1920" height="1102" alt="" loading="lazy" style="object-position:50% 50%">
+      <img class="story__img" src="img/kotelnicheskaya.jpg" width="1920" height="1238" alt="" loading="lazy" style="object-position:30% 50%">
+    </div>
+    <div class="story__scrim" aria-hidden="true"></div>
+    <div class="story__text">
+      <h2 id="story-h" class="story__head">Что я делаю для вас</h2>
+      <ol class="story__list" id="storyList">
+        <li class="is-active">Подбираю квартиру под вашу цель</li>
+        <li>Проверяю застройщика и договор</li>
+        <li>Веду переговоры об условиях</li>
+        <li>Сопровождаю сделку до ключей</li>
+        <li>Остаюсь на связи после покупки</li>
+      </ol>
+    </div>
+  </div>
+  <div class="story__markers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<!-- HOW: DRAG ROW -->
+<section class="steps" id="steps" aria-labelledby="steps-h">
+  <div class="steps__top">
+    <h2 id="steps-h" class="head head--md">Как проходит сделка</h2>
+    <div class="steps__ctl">
+      <button class="sqbtn" id="prev" aria-label="Назад"><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M12 4 6 10l6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+      <button class="sqbtn" id="next" aria-label="Вперёд"><svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="m8 4 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+    </div>
+  </div>
+  <div class="steps__bar" aria-hidden="true"><i id="bar"></i></div>
+  <ol class="steps__row" id="row" tabindex="0" aria-label="Этапы покупки">
+    <li class="step" style="--gap:112px">
+      <h3>Знакомимся и фиксируем цель</h3>
+      <p>Выясняю, для чего квартира: жить, вложить или сменить район. Фиксируем бюджет, сроки и то, без чего вариант не рассматриваем.</p>
+      <img src="img/patriarch-crop.jpg" width="640" height="800" alt="Патриаршие пруды в центре Москвы" loading="lazy" style="object-position:50% 30%">
+    </li>
+    <li class="step" style="--gap:40px">
+      <h3>Подбираю варианты</h3>
+      <p>Отбираю жилые комплексы бизнес- и премиум-класса, которые подходят именно вам, и объясняю, чем они отличаются.</p>
+      <img src="img/moscow-city-night.jpg" width="640" height="800" alt="Башни Москва-Сити вечером" loading="lazy" style="object-position:30% 40%">
+    </li>
+    <li class="step" style="--gap:128px">
+      <h3>Смотрим и проверяем</h3>
+      <p>Езжу на просмотры вместе с вами. Проверяю застройщика, разрешения и документы, пока вы смотрите планировку и вид.</p>
+      <img src="img/zaryadye.jpg" width="640" height="800" alt="Стеклянная кровля парка Зарядье на закате" loading="lazy" style="object-position:38% 50%">
+    </li>
+    <li class="step" style="--gap:64px">
+      <h3>Договариваюсь об условиях</h3>
+      <p>Обсуждаю цену, рассрочку и ипотеку, читаю договор и показываю, где в нём подводные камни.</p>
+      <img src="img/kotelnicheskaya.jpg" width="640" height="800" alt="Сталинская высотка на набережной" loading="lazy" style="object-position:30% 40%">
+    </li>
+    <li class="step" style="--gap:96px">
+      <h3>Доводим до ключей</h3>
+      <p>Сопровождаю регистрацию, оплату и приёмку квартиры. Обычно от выбора до сделки проходит около двух месяцев.</p>
+      <img src="img/sunrise.jpg" width="640" height="800" alt="Рассвет над Москвой, солнце на высотке" loading="lazy" style="object-position:52% 50%">
+    </li>
+  </ol>
+</section>
+
+<!-- WHY / FAQ -->
+<section class="faq" id="faq" aria-labelledby="faq-h">
+  <div class="faq__col">
+    <h2 id="faq-h" class="head head--md">Вопросы перед началом</h2>
+    <p class="faq__lead">Хорошую компанию для покупки найти непросто: рынок шумный, обещают все. Поэтому я отвечаю заранее и без общих слов.</p>
+    <div class="faq__list">
+      <details><summary>С какого бюджета вы работаете?</summary><p>С 15 млн ₽ и выше: бизнес-класс, премиум и элитная недвижимость в Москве. Покупки дешевле я не веду, чтобы уделять время каждому клиенту.</p></details>
+      <details><summary>Я живу не в Москве. Это проблема?</summary><p>Нет. Многие клиенты покупают в Москве, находясь в других городах. Формат общения и просмотры обсудим на первой встрече.</p></details>
+      <details><summary>Сколько длится покупка?</summary><p>Обычно около двух месяцев от первого разговора до сделки. Срок зависит от выбранного комплекса и способа оплаты.</p></details>
+      <details><summary>Чем персональный брокер отличается от отдела продаж застройщика?</summary><p>Менеджер застройщика продаёт один комплекс. Я сравниваю несколько и работаю на вас: ищу подходящее, а не то, что нужно продать.</p></details>
+      <details><summary>Что нужно для старта?</summary><p>Бюджет, цель покупки и желаемые сроки. Остальное выясним в разговоре.</p></details>
+    </div>
+    <a class="btn" href="#contact">Задать свой вопрос</a>
+  </div>
+  <div class="faq__pics">
+    <img class="faq__tall" src="img/kotelnicheskaya.jpg" width="1920" height="1238" alt="Сталинская высотка на набережной Москвы-реки" loading="lazy" style="object-position:33% 30%">
+    <img class="faq__sq" src="img/moscow-city-night.jpg" width="640" height="640" alt="Башни Москва-Сити ночью" loading="lazy" style="object-position:30% 30%">
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact" aria-labelledby="cta-h">
+  <div class="cta__strip" aria-hidden="true">
+    <img src="img/patriarch-crop.jpg" width="960" height="720" alt="" loading="lazy" style="object-position:50% 25%">
+    <img src="img/zaryadye.jpg" width="960" height="720" alt="" loading="lazy" style="object-position:50% 45%">
+    <img src="img/sunrise.jpg" width="960" height="720" alt="" loading="lazy" style="object-position:50% 30%">
+  </div>
+  <div class="cta__band">
+    <div class="cta__copy">
+      <h2 id="cta-h" class="cta__title">Расскажите, какую квартиру ищете</h2>
+      <p class="cta__sub">Оставьте контакты и бюджет. Свяжусь с вами и вместе решим, с чего начать подбор.</p>
+    </div>
+    <form class="form" id="leadForm" novalidate>
+      <label>Имя<input type="text" name="name" autocomplete="name" required></label>
+      <label>Телефон или Telegram<input type="tel" name="phone" autocomplete="tel" placeholder="+7" required></label>
+      <label>Цель покупки
+        <select name="topic">
+          <option>Жить самому</option>
+          <option>Вложить деньги</option>
+          <option>Сменить район или класс жилья</option>
+          <option>Пока не знаю</option>
+        </select>
+      </label>
+      <label>Бюджет
+        <select name="budget" id="budgetSel">
+          <option>15–30 млн ₽</option>
+          <option>30–60 млн ₽</option>
+          <option>60 млн ₽ и выше</option>
+        </select>
+      </label>
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <button class="btn btn--wide" type="submit">Подобрать квартиру</button>
+      <p class="form__note">Нажимая кнопку, вы соглашаетесь с <a href="privacy.html">политикой конфиденциальности</a>.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__cols">
+    <ul>
+      <li class="strong">Миша</li>
+      <li>Персональный брокер новостроек</li>
+      <li>Москва, работаю со всей России</li>
+    </ul>
+    <ul>
+      <li class="strong">Разделы</li>
+      <li><a href="#budget">Ваш бюджет</a></li>
+      <li><a href="#steps">Как проходит сделка</a></li>
+      <li><a href="#faq">Вопросы</a></li>
+    </ul>
+    <ul>
+      <li class="strong">Связь</li>
+      <li><a href="#contact">Оставить заявку</a></li>
+      <li><a href="privacy.html">Конфиденциальность</a></li>
+    </ul>
+    <ul class="footer__credits">
+      <li class="strong">Фотографии</li>
+      <li>Wikimedia Commons: Юрий Д.К. (CC BY 4.0), DmitriyGuryanov (CC BY-SA 4.0), Strober (CC BY-SA 3.0), Dimа (CC BY-SA 3.0), Максим Барбухин (CC0)</li>
+    </ul>
+  </div>
+  <div class="footer__mark" aria-hidden="true">
+    <svg viewBox="0 0 400 130" preserveAspectRatio="xMidYMax meet" width="100%"><text x="4" y="118" textLength="392" lengthAdjust="spacingAndGlyphs" font-family="Prata, serif" font-size="150" fill="currentColor">Миша</text></svg>
+  </div>
+  <p class="footer__legal">© <span id="year">2026</span> Миша. Брокер новостроек, Москва.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
