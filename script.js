@@ -63,19 +63,19 @@
   const cls = document.querySelector('.dial__class');
   const sel = document.getElementById('budgetSel');
   const tiers = [
-    { max: 30, i: 0, name: 'Бизнес-класс',
+    { max: 50, i: 0, name: 'Бизнес-класс, 20–60 млн ₽',
       text: 'Закрытые дворы, подземный паркинг, продуманные планировки. Сравниваю застройщиков, очереди и условия оплаты, чтобы вы не переплатили за громкое имя.' },
-    { max: 60, i: 1, name: 'Премиум-класс',
+    { max: 100, i: 1, name: 'Премиум-класс, 50–150 млн ₽',
       text: 'Расположение, архитектура и сервис дома. Подбираю комплексы, где качество подтверждено документами и репутацией застройщика, и проверяю, что в договоре записано обещанное.' },
-    { max: 1000, i: 2, name: 'Элитная недвижимость',
+    { max: 1000, i: 2, name: 'Элитная недвижимость, от 100 млн ₽',
       text: 'Редкие лоты и закрытые предложения. Работаю предметно: отбираю единичные варианты, проверяю юридическую чистоту и веду переговоры об условиях лично.' }
   ];
   let lastTier = -1;
   const updateDial = () => {
     const v = +range.value;
     const t = tiers.find(x => v < x.max) || tiers[2];
-    val.textContent = v >= 100 ? '100 млн ₽ и выше' : v + ' млн ₽';
-    fill.style.setProperty('--p', ((v - 15) / 85).toFixed(3));
+    val.textContent = v >= 150 ? '150 млн ₽ и выше' : v + ' млн ₽';
+    fill.style.setProperty('--p', ((v - 20) / 130).toFixed(3));
     if (t.i !== lastTier) {
       nameEl.textContent = t.name;
       textEl.textContent = t.text;
