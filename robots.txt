@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /raspakovka.html
+Disallow: /recommendations.html
+Disallow: /cards.html
+Disallow: /reviews.html
+Disallow: /channels.html
+Disallow: /report/
+Disallow: /materials.html
+Disallow: /scripts.html
+Disallow: /presentation.html
+Disallow: /outreach.html
+
+Sitemap: https://xn--90af3acbk.site/sitemap.xml

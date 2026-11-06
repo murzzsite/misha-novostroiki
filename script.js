@@ -149,6 +149,8 @@
     new FormData(form).forEach((v, k) => { payload[k] = v; });
     if (payload._gotcha) return;
     if (!payload.name || !payload.phone) { alert('Заполните имя и контакт для связи'); return; }
+    if (!payload.consent) { alert('Нужно согласие на обработку персональных данных'); return; }
+    payload.consent = 'да';
     btn.disabled = true;
     btn.textContent = 'Отправляем...';
     try {

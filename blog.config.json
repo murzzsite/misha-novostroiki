@@ -1,0 +1,43 @@
+{
+  "siteName": "Миша — брокер новостроек",
+  "siteUrl": "https://xn--90af3acbk.site",
+  "lang": "ru",
+  "repo": "murzzsite/misha-novostroiki",
+  "ref": "CUQSASEWWS",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Практические статьи о покупке новостроек в Москве: как выбрать брокера, комплекс и проверить договор",
+  "homeTitle": "Полезные статьи о покупке новостройки",
+  "author": {
+    "name": "Миша",
+    "jobTitle": "Брокер новостроек",
+    "type": "Person"
+  },
+  "ctaTitle": "Нужна помощь с выбором новостройки?",
+  "ctaText": "Оставьте заявку: свяжусь с вами и подскажу, с чего начать подбор.",
+  "ctaButton": "Подобрать квартиру",
+  "ctaUrl": "/#contact",
+  "disclaimer": "",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/novostroyki-biznes-klassa-moskva.html",
+    "/novostroyki-premium-klassa-moskva.html",
+    "/elitnaya-nedvizhimost-moskva.html",
+    "/broker-novostroek-moskva.html",
+    "/privacy.html",
+    "/consent.html"
+  ],
+  "indexNowKey": "687504b4a5ccabe9f237f3ceeaa18f0f",
+  "previewSecret": "0780813c20046ab4",
+  "theme": {
+    "accent": "var(--accent)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--muted)",
+    "accent-soft": "color-mix(in srgb, var(--accent) 10%, #ffffff)"
+  }
+}
