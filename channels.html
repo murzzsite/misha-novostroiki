@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Карта каналов для посевов — Миша</title>
+<meta name="description" content="Как выбрать Telegram-каналы для рекламы, отличить накрутку и спланировать первую волну размещений.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#eef1f3">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Prata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="inner.css">
+
+</head>
+<body>
+<header class="bar"><div class="bar__in">
+  <a class="logo" href="index.html" aria-label="Миша, на главную"><svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true"><path d="M3 25V12l5-3v16M10 25V5l5-3 5 3v20M22 25V13l3 2v10" fill="currentColor"/></svg><span>Миша</span></a>
+  <nav class="bar__nav" aria-label="Материалы">
+    <a href="index.html">← На сайт</a>
+    <a href="materials.html">Все материалы</a>
+  </nav>
+</div></header>
+<main>
+<section class="dhero"><div class="wrap"><h1>Как выбрать каналы для рекламы и не заплатить за накрутку</h1><p class="lead">Размещения оплачиваете вы, результат заранее обещать нельзя. Здесь методика и план первой волны. Конкретный список каналов дозаполним после доступа к аналитике.</p></div></section>
+<section class="sec"><div class="wrap"><h2>1. Какую аудиторию искать</h2><ul><li>жители Москвы 28–55 лет, которые обсуждают недвижимость, ипотеку и переезд</li><li>предприниматели и специалисты с высоким доходом, у которых есть задача «улучшить жильё»</li><li>переезжающие в Москву из регионов: релокационные и городские сообщества</li><li>инвесторы и читатели каналов о личных финансах</li></ul></div></section>
+<section class="sec alt"><div class="wrap"><h2>2. Критерии отбора и признаки накрутки</h2><h3>Берём</h3><ul class="checklist"><li>охват поста от 30–50% подписчиков и стабильный на разных постах</li><li>комментарии от живых людей, а не однотипные реакции</li><li>тематика рядом с недвижимостью, ипотекой, переездом или бизнесом</li><li>открытая цена и понятные условия размещения</li></ul><h3>Не берём</h3><ul class="checklist"><li>резкие скачки подписчиков без повода</li><li>охват сильно ниже числа подписчиков при низкой вовлечённости</li><li>много реклама подряд в ленте</li><li>группы клонов одного и того же контента</li><li>каналы, где нельзя проверить статистику</li></ul></div></section>
+<section class="sec"><div class="wrap"><h2>3. Как собрать список из 30–40 каналов</h2><ol><li>Откройте каталоги Telemetr и TGStat, выберите категории «Недвижимость», «Бизнес и стартапы», «Финансы» и тематику Москвы.</li><li>Отсортируйте по охвату и вовлечённости, не по числу подписчиков.</li><li>Для каждого канала запишите: название, подписчиков, средний охват, цену поста, контакт для рекламы.</li><li>Проверьте последние 10 постов: есть ли живые комментарии и сколько рекламы подряд.</li><li>Составьте таблицу и отметьте 10 приоритетных каналов.</li></ol><div class="todo"><b>Нужно от вас:</b> доступ к платному аналитическому сервису или выгрузка из него. Без него честный список на 30–40 каналов мы не собираем.</div></div></section>
+<section class="sec alt"><div class="wrap"><h2>4. Калькулятор: сколько стоит 1000 просмотров</h2><div class="card" id="calc"><div style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+<label>Цена поста, ₽<input id="cPrice" type="text" inputmode="numeric" value="10000" style="width:100%;padding:12px;border:2px solid transparent;background:#fff;font:inherit"></label>
+<label>Охват поста, просмотров<input id="cViews" type="text" inputmode="numeric" value="5000" style="width:100%;padding:12px;border:2px solid transparent;background:#fff;font:inherit"></label>
+<label>Переходов на сайт или бот, %<input id="cCtr" type="text" inputmode="decimal" value="1" style="width:100%;padding:12px;border:2px solid transparent;background:#fff;font:inherit"></label>
+<label>Из переходов в заявку, %<input id="cConv" type="text" inputmode="decimal" value="5" style="width:100%;padding:12px;border:2px solid transparent;background:#fff;font:inherit"></label></div>
+<p style="margin-top:16px"><b>Цена 1000 просмотров:</b> <span id="rCpm">2 000 ₽</span></p><p><b>Переходов:</b> <span id="rClicks">50</span> · <b>Заявок:</b> <span id="rLeads">2,5</span> · <b>Цена заявки:</b> <span id="rCpl">4 000 ₽</span></p>
+<p class="todo" style="margin-top:12px">Проценты переходов и заявок здесь условные. После первой волны замените их реальными цифрами из Метрики.</p></div>
+<script>(function(){var g=function(i){return parseFloat(String(document.getElementById(i).value).replace(',','.').replace(/\s/g,''))||0};var f=function(n){return Math.round(n).toLocaleString('ru-RU')};function u(){var p=g('cPrice'),v=g('cViews'),c=g('cCtr'),k=g('cConv');var cpm=v?p/v*1000:0,cl=v*c/100,l=cl*k/100;document.getElementById('rCpm').textContent=f(cpm)+' ₽';document.getElementById('rClicks').textContent=f(cl);document.getElementById('rLeads').textContent=(Math.round(l*10)/10).toLocaleString('ru-RU');document.getElementById('rCpl').textContent=l?f(p/l)+' ₽':'нет данных'}['cPrice','cViews','cCtr','cConv'].forEach(function(i){document.getElementById(i).addEventListener('input',u)});u()})();</script></div></section>
+<section class="sec alt"><div class="wrap"><h2>5. План первой волны: 5 каналов, 3 рекламных поста</h2><p>Купите 5 размещений в разных тематиках, чтобы понять, какая аудитория реагирует. Не тратьте весь бюджет на одну площадку.</p><table><thead><tr><th>Канал</th><th>Тематика</th><th>Что проверить</th></tr></thead><tbody><tr><td>Канал 1</td><td data-label="Тематика">Недвижимость Москвы</td><td data-label="Что проверить">Охват, комментарии</td></tr><tr><td>Канал 2</td><td data-label="Тематика">Ипотека и финансы</td><td data-label="Что проверить">Доля рекламы в ленте</td></tr><tr><td>Канал 3</td><td data-label="Тематика">Переезд и релокация в Москву</td><td data-label="Что проверить">Живая аудитория</td></tr><tr><td>Канал 4</td><td data-label="Тематика">Предприниматели</td><td data-label="Что проверить">Покупательная способность</td></tr><tr><td>Канал 5</td><td data-label="Тематика">Городские новости Москвы</td><td data-label="Что проверить">Охват и цена</td></tr></tbody></table><h3>Три рекламных поста</h3><div class="fact"><b>Пост A.</b> Выбираете новостройку в Москве и не знаете, с чего начать? Я персональный брокер: подбираю несколько комплексов, проверяю застройщика и договор, провожу сделку до ключей. Для покупателя бесплатно. Бюджет от 20 млн ₽. Расскажите задачу: подбор.site</div>
+<div class="fact"><b>Пост B.</b> Три вопроса брокеру до встречи: кто платит за вашу работу, сколько комплексов вы покажете, дадите ли прочитать договор заранее. Если есть прямые ответы, можно работать. Мои ответы и условия: подбор.site</div>
+<div class="fact"><b>Пост C.</b> Покупаете квартиру в Москве и живёте в другом городе? Организую видеопоказ, проверю документы и сопровожу сделку дистанционно. Бизнес-, премиум- и элитный класс. Напишите: подбор.site</div><div class="todo"><b>Нужно от вас:</b> подтвердите, что цена и формулировки постов подходят, до размещения.</div></div></section>
+<section class="sec"><div class="wrap"><h2>6. Как заказать размещение</h2><ol><li>Найдите контакт рекламного менеджера в описании канала или в каталоге.</li><li>Запросите прайс, формат поста, день и время выхода.</li><li>Договоритесь о сроке публикации и о том, что пост стоит в ленте без удаления минимум 24 часа.</li><li>Отправьте текст, ссылку и, если нужно, отдельную метку для учёта.</li><li>Оплатите после согласования и сохраните ссылку на пост и скриншот статистики через сутки.</li></ol><p>Метки <code>?start=</code> в ссылке на бота пока не работают, поэтому каналы разводим по датам: один канал в день, чтобы отличать заявки.</p></div></section>
+</main>
+<script src="common.js"></script>
+</body>
+</html>

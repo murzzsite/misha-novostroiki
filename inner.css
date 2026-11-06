@@ -144,3 +144,9 @@ details > p, details > div { margin-top: 6px; max-width: 70ch; }
   .js .rv { opacity: 1; transform: none; }
 }
 .wrap.legal h2 { font-family: var(--sans); font-size: var(--step-lead); letter-spacing: 0; margin: 28px 0 10px; }
+.bar__nav a.btn, .bar__nav a.btn:hover { color: #fff; text-decoration: none; }
+.sec p, .sec li { max-width: 70ch; }
+.sec .grid2 p, .sec .grid3 p, .sec table p, .sec table li { max-width: none; }
+.dhero__split { display: grid; grid-template-columns: 7fr 5fr; gap: clamp(24px, 4vw, 64px); align-items: center; }
+.dhero__pic { width: 100%; aspect-ratio: 5 / 4; object-fit: cover; }
+@media (max-width: 900px) { .dhero__split { grid-template-columns: 1fr; } .dhero__pic { aspect-ratio: 16 / 10; } }
