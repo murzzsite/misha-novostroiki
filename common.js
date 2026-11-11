@@ -1,6 +1,6 @@
 (() => {
   // Номер счётчика Яндекс Метрики: подставляется после создания счётчика
-  const YM_ID = 0;
+  const YM_ID = 114179196;
   const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/CUQSASEWWS';
   const KEY = 'cookie-choice';
   const store = {
