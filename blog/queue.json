@@ -1,21 +1,17 @@
 {
   "site": "https://xn--90af3acbk.site",
   "updated": "2026-11-18",
-  "awaiting": [
-    {
-      "slug": "kak-proverit-zastroyschika-novostroyki",
-      "path": "articles/kak-proverit-zastroyschika-novostroyki.md",
-      "title": "Как проверить застройщика новостройки в Москве перед покупкой",
-      "description": "Как проверить застройщика перед покупкой новостройки в Москве: документы, сданные дома, схема расчётов и признаки, при которых лучше отказаться от сделки.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://xn--90af3acbk.site/blog/preview/4bab1816973d/kak-proverit-zastroyschika-novostroyki/"
-    }
-  ],
+  "awaiting": [],
   "scheduled": [
     {
       "slug": "dogovor-dolevogo-uchastiya-na-chto-smotret",
       "title": "Договор долевого участия: на что смотреть перед подписанием",
       "date": "2026-11-25"
+    },
+    {
+      "slug": "kak-proverit-zastroyschika-novostroyki",
+      "title": "Как проверить застройщика новостройки в Москве перед покупкой",
+      "date": "2026-12-02"
     }
   ],
   "published": [
