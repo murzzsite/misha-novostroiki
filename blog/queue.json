@@ -3,22 +3,6 @@
   "updated": "2026-11-18",
   "awaiting": [
     {
-      "slug": "biznes-klass-ili-premium-novostroyka-moskva",
-      "path": "articles/biznes-klass-ili-premium-novostroyka-moskva.md",
-      "title": "Бизнес-класс или премиум: как выбрать новостройку в Москве",
-      "description": "Бизнес-класс или премиум при покупке новостройки в Москве: чем отличаются классы, на что смотреть при бюджете 20–150 млн рублей и как принять решение без спешки.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://xn--90af3acbk.site/blog/preview/747a6f484148/biznes-klass-ili-premium-novostroyka-moskva/"
-    },
-    {
-      "slug": "dogovor-dolevogo-uchastiya-na-chto-smotret",
-      "path": "articles/dogovor-dolevogo-uchastiya-na-chto-smotret.md",
-      "title": "Договор долевого участия: на что смотреть перед подписанием",
-      "description": "Что проверить в договоре долевого участия при покупке новостройки: срок передачи, цена, описание квартиры, эскроу, приёмка и риски. Чек-лист перед подписанием.",
-      "reading_time": "10 мин чтения",
-      "preview_url": "https://xn--90af3acbk.site/blog/preview/5d7a2ef5b7fd/dogovor-dolevogo-uchastiya-na-chto-smotret/"
-    },
-    {
       "slug": "kak-proverit-zastroyschika-novostroyki",
       "path": "articles/kak-proverit-zastroyschika-novostroyki.md",
       "title": "Как проверить застройщика новостройки в Москве перед покупкой",
@@ -27,8 +11,20 @@
       "preview_url": "https://xn--90af3acbk.site/blog/preview/4bab1816973d/kak-proverit-zastroyschika-novostroyki/"
     }
   ],
-  "scheduled": [],
+  "scheduled": [
+    {
+      "slug": "dogovor-dolevogo-uchastiya-na-chto-smotret",
+      "title": "Договор долевого участия: на что смотреть перед подписанием",
+      "date": "2026-11-25"
+    }
+  ],
   "published": [
+    {
+      "slug": "biznes-klass-ili-premium-novostroyka-moskva",
+      "title": "Бизнес-класс или премиум: как выбрать новостройку в Москве",
+      "url": "https://xn--90af3acbk.site/blog/biznes-klass-ili-premium-novostroyka-moskva/",
+      "date": "2026-11-18"
+    },
     {
       "slug": "kak-vybrat-brokera-po-novostroykam",
       "title": "Как выбрать брокера по новостройкам в Москве: вопросы и признаки надёжности",
