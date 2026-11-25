@@ -1,13 +1,8 @@
 {
   "site": "https://xn--90af3acbk.site",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "awaiting": [],
   "scheduled": [
-    {
-      "slug": "dogovor-dolevogo-uchastiya-na-chto-smotret",
-      "title": "Договор долевого участия: на что смотреть перед подписанием",
-      "date": "2026-11-25"
-    },
     {
       "slug": "kak-proverit-zastroyschika-novostroyki",
       "title": "Как проверить застройщика новостройки в Москве перед покупкой",
@@ -15,6 +10,12 @@
     }
   ],
   "published": [
+    {
+      "slug": "dogovor-dolevogo-uchastiya-na-chto-smotret",
+      "title": "Договор долевого участия: на что смотреть перед подписанием",
+      "url": "https://xn--90af3acbk.site/blog/dogovor-dolevogo-uchastiya-na-chto-smotret/",
+      "date": "2026-11-25"
+    },
     {
       "slug": "biznes-klass-ili-premium-novostroyka-moskva",
       "title": "Бизнес-класс или премиум: как выбрать новостройку в Москве",
